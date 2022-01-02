@@ -1,0 +1,36 @@
+# --- General
+
+syntax: rootglob
+
+.local/
+
+# --- Mac OS
+
+syntax: glob
+
+.DS_Store
+
+# --- Python
+
+syntax: glob
+
+*.py[cdo]
+__pycache__
+*.so
+
+syntax: rootglob
+
+build/
+dist/
+
+syntax: glob
+
+_build
+*.egg
+*.egg-info
+.venv
+
+# --- Node
+
+node_modules/
+package-lock.json

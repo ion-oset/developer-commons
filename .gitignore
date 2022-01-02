@@ -1,0 +1,25 @@
+# --- General
+
+/.local/
+
+# --- Mac OS
+
+.DS_Store
+
+# --- Python
+
+*.py[cdo]
+__pycache__
+*.so
+
+/build/
+/dist/
+_build
+*.egg
+*.egg-info
+.venv
+
+# --- Node
+
+node_modules/
+package-lock.json
